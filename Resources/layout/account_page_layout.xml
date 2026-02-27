@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5green">
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+		>
+
+		<!-- Header -->
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Account Panel"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="#39a389"
+			android:gravity="center"
+			android:padding="16dp"
+			android:background="#a9fce8"
+			android:fontFamily="serif"/>
+
+		<!-- USERNAME -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textColor="#FFFFFF"
+                android:background="#11a2cf"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_username"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+		</LinearLayout>
+
+		<!-- PASSWORD -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="#FFFFFF"
+                android:background="#18B6A4"
+                android:padding="10dp" 
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_user password"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+		</LinearLayout>
+
+		<!-- FIRST NAME -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="First Name:"
+                android:textColor="#FFFFFF"
+                android:background="#11a2cf"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_user's first name"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+		</LinearLayout>
+
+		<!-- LAST NAME -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Last Name:"
+                android:textColor="#FFFFFF"
+                android:background="#18B6A4"
+                android:padding="10dp" 
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_user's last name"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+		</LinearLayout>
+
+		<!-- EMAIL -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textColor="#FFFFFF"
+                android:background="#11a2cf"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_user's email"
+                android:background="#FFFFFF"
+                android:padding="10dp" 
+				android:fontFamily="serif"/>
+		</LinearLayout>
+
+		<!-- MOBILE -->
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+			<TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile:"
+                android:textColor="#FFFFFF"
+                android:background="#18B6A4"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_user's mobile number"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+				android:fontFamily="serif"/>
+		</LinearLayout>
+		
+		<!-- UPDATE BUTTON -->
+		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update User Info"
+            android:textColor="#FFFFFF"
+            android:background="#7A2BCB"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center" 
+			android:fontFamily="serif"/>
+
+	</LinearLayout>
+
+</ScrollView>

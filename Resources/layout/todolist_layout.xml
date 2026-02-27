@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg4blue">
+
+	<!-- Title -->
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To-Do List"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#bd135c"
+	    android:gravity="center"
+	    android:padding="16dp"
+	    android:background="#F3E4E4" /> 
+
+
+	<!-- To-do items -->
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+		<EditText
+            android:id="@+id/etTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="New task" />
+
+		<Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+	</LinearLayout>
+	
+    <ListView
+	    android:id="@+id/lvTasksList"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+
+	
+</LinearLayout>
